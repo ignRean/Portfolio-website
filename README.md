@@ -33,50 +33,17 @@ Designed with a focus on user experience and performance, the website features a
 
 ---
 
-## 🧰 Getting Started
-
-Clone the repository and run the project locally — no build tools or installations required.
-
-```bash
-git clone https://github.com/ignRean/Portfolio-website.git
-cd Portfolio-website
-
-Then simply open the Main.html file in your preferred browser.
 📘 Usage Guide
 
-    Use the navigation bar to move between site sections.
+Use the navigation bar to move between site sections.
 
-    Click the theme toggle icon (🌙 / ☀️) to switch themes.
+Click the theme toggle icon (🌙 / ☀️) to switch themes.
 
-    Launch the Command Palette with ⌘K (macOS) or Ctrl+K (Windows/Linux).
+Launch the Command Palette with ⌘K (macOS) or Ctrl+K (Windows/Linux).
 
-    Use the carousel to browse projects on desktop or touch devices.
+Use the carousel to browse projects on desktop or touch devices.
 
-    Fill in the contact form to simulate sending a message.
 
-🖼️ Screenshots
-
-    (Add images to illustrate various states — desktop, mobile, dark mode, etc.)
-
-    Desktop View
-
-    Mobile View
-
-    Dark Mode View
-
-🤝 Contributing
-
-Contributions are always welcome! Whether it’s fixing a bug, improving the design, or suggesting a new feature:
-
-    Fork the repository
-
-    Create a new branch (git checkout -b feature/YourFeature)
-
-    Commit your changes (git commit -m 'Add feature')
-
-    Push to GitHub (git push origin feature/YourFeature)
-
-    Open a Pull Request
 
 Open issues or discussions for feedback and suggestions!
 📄 License

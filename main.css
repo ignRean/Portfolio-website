@@ -126,7 +126,7 @@ body {
     }
 }
 
-/* Geometric Grid Pattern */
+/*Grid Pattern */
 .grid-pattern {
     position: fixed;
     top: 0;
@@ -213,7 +213,7 @@ body {
     border-bottom: none;
 }
 
-/* Ultra-Modern Navigation */
+/*Navigation */
 nav {
     position: fixed;
     top: 20px;
@@ -297,7 +297,7 @@ nav {
     transform: scale(1.02);
 }
 
-/* Hero Section with Enhanced Typography */
+/*Hero Section*/
 .hero {
     min-height: 100vh;
     display: flex;
@@ -313,7 +313,7 @@ nav {
     z-index: 1;
 }
 
-/* Profile Image positioned above greeting */
+/*Profile Image*/
 .profile-container {
     margin-bottom: 32px;
     margin-top: 80px;
@@ -413,7 +413,7 @@ nav {
     letter-spacing: -0.008em;
 }
 
-.hero-cta {
+.hero-view {
     display: inline-flex;
     align-items: center;
     gap: 12px;
@@ -432,7 +432,7 @@ nav {
     overflow: hidden;
 }
 
-.hero-cta::before {
+.hero-view::before {
     content: '';
     position: absolute;
     top: 0;
@@ -443,16 +443,16 @@ nav {
     transition: left 0.6s ease;
 }
 
-.hero-cta:hover {
+.hero-view:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-xl);
 }
 
-.hero-cta:hover::before {
+.hero-view:hover::before {
     left: 100%;
 }
 
-/* Sections */
+/*Sections*/
 section {
     padding: 120px 24px;
     max-width: 1200px;
@@ -482,7 +482,7 @@ section {
     border-radius: 2px;
 }
 
-/* Enhanced Skills Grid */
+/*Skills Grid*/
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -562,7 +562,7 @@ section {
     font-family: 'JetBrains Mono', monospace;
 }
 
-/* Animated Progress Bars */
+/*Progress Bars*/
 .skill-progress {
     width: 100%;
     height: 3px;
@@ -586,7 +586,7 @@ section {
     transform: scaleX(var(--width));
 }
 
-/* Projects Carousel */
+/*Projects Carousel*/
 .projects-container {
     position: relative;
     max-width: 900px;
@@ -696,7 +696,7 @@ section {
     transform: translateX(4px);
 }
 
-/* Contact Section */
+/*Contact Section*/
 .contact-container {
     max-width: 600px;
     margin: 0 auto;
@@ -783,7 +783,7 @@ section {
     left: 100%;
 }
 
-/* Social Icons */
+/*Social Icons*/
 .social-links {
     display: flex;
     justify-content: center;
@@ -864,7 +864,7 @@ section {
     transform: translateY(0);
 }
 
-/* Scroll Progress */
+/*Scroll Progress*/
 .scroll-progress {
     position: fixed;
     top: 0;
@@ -877,7 +877,7 @@ section {
     box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
 }
 
-/* Responsive Design */
+/*Responsive Design*/
 @media (max-width: 1024px) {
     .profile-container {
         margin-bottom: 24px;
@@ -958,7 +958,7 @@ section {
     }
 }
 
-/* Accessibility */
+/*Accessibility*/
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -974,20 +974,19 @@ section {
     }
 }
 
-/* Focus Styles */
+/*Focus Styles*/
 *:focus-visible {
     outline: 2px solid var(--accent-primary);
     outline-offset: 2px;
     border-radius: var(--radius-sm);
 }
-
-/* Selection */
+/*Selection*/
 ::selection {
     background: rgba(37, 99, 235, 0.2);
     color: var(--text-primary);
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollba */
 ::-webkit-scrollbar {
     width: 8px;
 }

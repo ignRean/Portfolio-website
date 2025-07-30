@@ -1,6 +1,6 @@
 Project Description
 
-This repository hosts the code for my personal portfolio website, designed to showcase my skills, projects, and provide a professional online presence. This website serves as a central hub for potential employers, collaborators, and anyone interested in my work. It features a clean, modern design with interactive elements and a focus on user experience.
+This repository hosts the code for my personal portfolio website, designed to showcase my skills, projects, and provide a professional online presence. It features a clean, modern design with interactive elements and a focus on user experience.
 
 Features
 
